@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects &amp; Interests on </title>
+    <link>https://opticalady.github.io/blog/</link>
+    <description>Recent content in Projects &amp; Interests on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://opticalady.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The realization of wavefront control for matter waves by perforated metasurface</title>
+      <link>https://opticalady.github.io/blog/post_1/</link>
+      <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://opticalady.github.io/blog/post_1/</guid>
+      <description>11/2020-02/2021 Supported by Nanjing Tech University
+In this project, I focus on extending the concept of metasurface to matter waves (nowadays we have optical metasurface and acoustic metasurface) based on theoretically calculation. Some main results are:
+  I demonstrate that waveguide mode resonances and constructive interferences of surface diffraction modes can lead to 100% transmission of matter waves through subwavelength slits of thick rectangular grating that would be otherwise opaque for these wavelengths.</description>
+    </item>
+    
+    <item>
+      <title>Application of high efficiency porous and slotted metasurface to optical polarization and phase control</title>
+      <link>https://opticalady.github.io/blog/post_3/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://opticalady.github.io/blog/post_3/</guid>
+      <description>08/2020-09/2020 Supported by the National Natural Science Foundation of China and Nanjin Tech University
+In this project we need to realize high efficiency polarization and wavefront control of light by porous and slotted metasurface. The prototype of this kind of metasurface has been studied in [1,2]. In this project, I mainly focus on wavefront control and find highly-efficient wavefront bending in optical regime is attainable by a single-layer perforated metasurface (plasmonic metasurface, free-standing).</description>
+    </item>
+    
+    <item>
+      <title>The realization of visible color filtering by metasurface</title>
+      <link>https://opticalady.github.io/blog/post_2/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://opticalady.github.io/blog/post_2/</guid>
+      <description>09/2020-10/2021 Supported by Nanjing Tech University
+This is a company project. We need to design some metasurfaces that can realize the filtering of the visible color (these metasurfaces have applications in light-emitting display, e.g., OLED, LCD). All visible colors are the mixture of blue, green and red and what we need to do is to pick out or filter one of them (they have different frequency). In this project, I realize the purpose in three different ways based on simulation .</description>
+    </item>
+    
+    <item>
+      <title>Research on LCD photocurable 3D printing light source module</title>
+      <link>https://opticalady.github.io/blog/post_4/</link>
+      <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://opticalady.github.io/blog/post_4/</guid>
+      <description>04/2019-04/2020 Supported by Excellent Achievements Exchange Committee of Jiangsu University Students’ Innovation and Entrepreneurship
+This project aims at the problems of poor illumination uniformity and low irradiation intensity of 3D printer photocurable surface light source under the condition of near field. Paper on this work has been published on China&amp;rsquo;s core academic journals (see PDF). Main results are:
+ By a iterative method, I design the LED lens which have the known light luminous function.</description>
+    </item>
+    
+  </channel>
+</rss>

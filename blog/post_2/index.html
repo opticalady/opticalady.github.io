@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-us" style="max-width: 1000px; margin: auto"><head>
+  <title>Wanyue Xiao</title>
+
+<meta name="theme-color" content="" />
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="description" content="Website title" />
+<meta name="author" content="Darshan Baral" />
+<meta name="generator" content="aafu theme by Darshan in Hugo 0.81.0" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">        <link rel="manifest" href="/site.webmanifest">        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">        <link rel="shortcut icon" href="/favicon.ico">        
+
+  <link
+    rel="stylesheet"
+    href="/css/bootstrap/bootstrap.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
+  />
+  <link rel="stylesheet" href="/css/aafu_dark.css" />
+  <link rel="stylesheet" href="/css/aafu.css" />
+
+  <script>
+    var themeColor = document.querySelector("meta[name=theme-color]");
+    window.onload = () => {
+      themeColor.content = getComputedStyle(document.body)["background-color"];
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+    window.onresize = () => {
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+  </script>
+</head>
+<body class="container">
+    <main style="min-height: calc(100vh - 60px)">
+      
+      <div class="d-flex flex-row row p-2">
+  <h3 class="main-menu mr-3">
+    <a href="https://opticalady.github.io/">Intro</a>
+  </h3>
+  <h3 class="main-menu mr-3">
+    <a href="/blog">Projects&Interests</a>
+  </h3>
+</div>
+
+      
+<div class="mb-3">
+  <h1 class="top-h1" style="font-size: 2.75em">The realization of visible color filtering by metasurface</h1>
+  <p class="mb-1">October 30, 2020</p>
+  <p>&mdash;</p>
+</div>
+<div class="content"><p><code>09/2020-10/2021 Supported by Nanjing Tech University</code></p>
+<p>This is a company project. We need to design some metasurfaces that can realize the filtering of the visible color (these metasurfaces have applications in light-emitting display, e.g., OLED, LCD). All visible colors are the mixture of blue, green and red and what we need to do is to pick out or filter one of them (they have different frequency).  In this project, I realize the purpose in three different ways based on simulation .</p>
+<ol>
+<li>Transmission selectivity</li>
+</ol>
+<p><img src="/images/1.png" alt=""></p>
+<p>I realize the transmission selectivity by designing a kind of stack metasurface which has multiple layers. This kind of metasurface have been reported[1,2]. Actually, it can be seen as a Fabry-Perot interferometer. By adjusting the thickness of the centre dielectric layer, different colors can be transmitted. It was also coated with a  dielectric layer on the upper metal plate to reduce the reflection. I do some optimization for this kind of structure to satisfy the requirements of the company (bandwidth, efficiency).</p>
+<ol start="2">
+<li>Reflection selectivity</li>
+</ol>
+<p><img src="/images/2.png" alt=""></p>
+<p>I realize the reflection selectivity by designing a kind of all-dielectric metasurface which is composed of Si nanopillars (usually TiO2 has lower loss, but this material has difficulty in compatibility to semiconductor devices). By adjusting the aspect ratio of the nanopillars, different resonance positions of the electric and magnetic dipoles can be realized. The resonances of the electric and magnetic dipoles will lead to the backward scattering of light. If the resonance positions of the two dipoles are very close to each other, the reflection selectivity of a specific color can be obtained. This kind of metasurface has been reported[3,4]. I design the structure based on simulation and pick out the optimal parameters.</p>
+<ol start="3">
+<li>Absorption selectivity</li>
+</ol>
+<p><img src="/images/3.png" alt=""></p>
+<p>For the above two ways I use the exited metasurfaces and do some optimization, but for absorption selectivity I design a kind of new metasurface that has never been reported before.</p>
+<p>We know the famous extraordinary optical transmission, however, when the metal plate is very thin, we can also obtain extraordinary optical absorption. The problem is that the extraordinary optical absorption usually cannot beyond 50%. Thus, to solve the problem, I use two perforated thin metal plates and sandwich them with a dielectric layer. Moreover, the structure was coated with a  reflection-reducing layer. When the light is bouncing between the two perforated plates, it will be absorbed again and again, thus the absorption of different visible colors is greatly improved. The simulation results are shown below.</p>
+<p><img src="/images/4.png" alt=""></p>
+<p>​</p>
+<p>​</p>
+<p>​</p>
+<p>[1]Park C S, Shrestha V R, Lee S S, et al. Omnidirectional color filters capitalizing on a nano-resonator of Ag-TiO 2-Ag integrated with a phase compensating dielectric overlay. Scientific reports, 2015, 5(1): 1-8.</p>
+<p>[2]Lee K T, Seo S, Yong Lee J, et al. Ultrathin metal-semiconductor-metal resonator for angle invariant visible band transmission filters. Applied Physics Letters, 2014, 104(23): 231112.</p>
+<p>[3]Proust J, Bedu F, Gallas B, et al. All-dielectric colored metasurfaces with silicon Mie resonators. ACS nano, 2016, 10(8): 7761-7767.</p>
+<p>[4]Vashistha V, Vaidya G, Gruszecki P, et al. Polarization tunable all-dielectric color filters based on cross-shaped Si nanoantennas. Scientific reports, 2017, 7(1): 1-8.</p>
+</div>
+<div class="d-flex flex-row justify-content-around">
+  <h3 class="mb-1 mt-1 text-left mr-4">
+    
+    <a
+      href="/blog/post_4/"
+      title="Research on LCD photocurable 3D printing light source module"
+    >
+      <i class="nav-menu fas fa-chevron-circle-left"></i>
+    </a>
+    
+  </h3>
+  <h3 class="mb-1 mt-1 text-left ml-4">
+    
+    <a
+      href="/blog/post_3/"
+      title="Application of high efficiency porous and slotted metasurface to optical polarization and phase control"
+    >
+      <i class="nav-menu fas fa-chevron-circle-right"></i>
+    </a>
+    
+  </h3>
+</div>
+
+
+    </main>
+    
+    <footer class=" mt-2 mb-4 text-center ">
+  <span class="markdownify"></span>
+  <span style="font-size:0px;">
+    &middot;
+    <i>
+      <a href="https://github.com/darshanbaral/aafu">
+        aafu
+      </a>
+    </i>
+    by
+    <a href="https://www.darshanbaral.com/">
+      darshan
+    </a>
+  </span>
+</footer>
+
+    
+  </body>
+</html>
